@@ -1,0 +1,53 @@
+.login-page {
+  text-align: center;
+  padding: 10% 40%;
+}
+
+body {
+  /* background-color: #edeff1 !important; */
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.ant-card {
+  width: 360px;
+  padding: 40px 40px !important;
+  border-radius: 20px !important;
+}
+
+.ant-avatar {
+  background: rgb(238,174,202) !important;
+  margin-bottom: 15px !important; 
+}
+
+.ant-avatar-lg.ant-avatar-icon {
+  font-size: 90px !important;
+  padding-top: 10px !important;
+}
+
+.ant-avatar-lg {
+  width: 120px !important;
+  height: 120px !important;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.ant-typography {
+  color: rgb(238,174,202) !important;
+  font-weight: 500 !important;
+  margin-bottom: 25px !important;
+}
+
+.ant-btn-background-ghost.ant-btn-primary {
+  color: rgba(148,187,233,1) !important;
+  border-color: rgba(148,187,233,1) !important;
+}
+
+a {
+  color: rgba(148,187,233,1) !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: rgba(148,187,233,1) !important;
+  border-color: rgba(148,187,233,1) !important;
+}
